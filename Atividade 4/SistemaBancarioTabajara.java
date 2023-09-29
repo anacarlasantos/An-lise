@@ -11,8 +11,7 @@ public class SistemaBancarioTabajara {
 
             Scanner scanner = new Scanner(System.in);
             int escolha;
-
-            do {
+            
                 System.out.println("Sistema Bancário Tabajara");
                 System.out.println("1 - Cadastrar conta");
                 System.out.println("2 - Consultar conta");
@@ -22,6 +21,8 @@ public class SistemaBancarioTabajara {
                 System.out.println("6 - Sair do sistema");
                 System.out.print("Escolha uma opção: ");
                 escolha = scanner.nextInt();
+
+            do {
 
                 switch (escolha) {
                     case 1:
